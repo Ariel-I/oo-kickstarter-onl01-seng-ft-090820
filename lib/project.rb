@@ -9,7 +9,7 @@ def initialize(title)
 end 
 
 def add_backer(backer=[])
-  @add_backer = @backer << backer 
+  @add_backer = @backers << backer 
 end
   
 end 
