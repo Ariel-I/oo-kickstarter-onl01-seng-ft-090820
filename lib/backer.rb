@@ -11,7 +11,6 @@ end
 
 def back_project(project=[])
   @back_project = @backed_projects << project
-  Backers.each << self 
 end
 
 
