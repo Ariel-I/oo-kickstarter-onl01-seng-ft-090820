@@ -8,8 +8,11 @@ def initialize(name)
   @backed_projects = []
 end 
 
-def backed_projects(project=[])
-  @backed_projects = project
+def back_project=(back_project)
+  @back_project = back_project
+
+def back_project(project=[])
+  @back_project = project
 end
 
 
