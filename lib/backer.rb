@@ -10,6 +10,7 @@ end
 
 def back_project=(back_project)
   @back_project = back_project
+end
 
 def back_project(project=[])
   @back_project = project
